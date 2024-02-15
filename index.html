@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geomatry</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+    <header>
+
+    </header>
+    
+    <main class=" flex">
+
+        <div class="boxa grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+            
+        <div class="box flex-1">  
+            <div class="card w-72 bg-base-100 shadow-xl border-1 border-gray-400">
+                <figure class="px-10 pt-10">
+                  <img src="images/triangle.png" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Triangle</h2>
+                  <p>Area (A) = 0.5*b*h</p>
+                  <div class="inp flex justify-center align-middle">
+                    <input class="w-[30%]" type="text" name="" id="trin1" placeholder="b">
+                    <span class="mx-2">cm</span>
+                    <input class="w-[30%]" type="text" name="" id="trin2" placeholder="h">
+                    <span class="mx-2">cm</span>
+                  </div>
+                  <p>Area:<span id="tr">cm2</span></p>
+                  <div class=" w-full">
+                    <button id="tcal" class="bg-cyan-500 p-2 rounded-lg text-white w-full">Calculate</button>
+                  </div>
+                </div>
+              </div>
+    
+        </div>
+    
+        <div class="box flex-1">  
+                <div class="card w-72 bg-base-100 shadow-xl border-1 border-gray-400">
+                    <figure class="px-10 pt-10">
+                      <img src="images/rectangle.png" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Rectangle</h2>
+                      <p>Area (A) = 0.5*b*h</p>
+                      <div class="inp flex justify-center align-middle">
+                        <input class="w-[30%]" type="text" name="" id="trin1" placeholder="b">
+                        <span class="mx-2">cm</span>
+                        <input class="w-[30%]" type="text" name="" id="trin2" placeholder="h">
+                        <span class="mx-2">cm</span>
+                      </div>
+                      <p>Area:<span id="tr">cm2</span></p>
+                      <div class=" w-full">
+                        <button id="tcal" class="bg-cyan-500 p-2 rounded-lg text-white w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+        
+        </div>
+    
+        <div class="box flex-1">  
+                    <div class="card w-72 bg-base-100 shadow-xl border-1 border-gray-400">
+                        <figure class="px-10 pt-10">
+                          <img src="images/parallelogram.png" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Parallelogram</h2>
+                          <p>Area (A) = 0.5*b*h</p>
+                          <div class="inp flex justify-center align-middle">
+                            <input class="w-[30%]" type="text" name="" id="trin1" placeholder="b">
+                            <span class="mx-2">cm</span>
+                            <input class="w-[30%]" type="text" name="" id="trin2" placeholder="h">
+                            <span class="mx-2">cm</span>
+                          </div>
+                          <p>Area:<span id="tr">cm2</span></p>
+                          <div class=" w-full">
+                            <button id="tcal" class="bg-cyan-500 p-2 rounded-lg text-white w-full">Calculate</button>
+                          </div>
+                        </div>
+                      </div>
+            
+        </div>
+    
+        <div class="box flex-1">  
+                        <div class="card w-72 bg-base-100 shadow-xl border-1 border-gray-400">
+                            <figure class="px-10 pt-10">
+                              <img src="images/rhombus.png" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                              <h2 class="card-title">Rhombus</h2>
+                              <p>Area (A) = 0.5*b*h</p>
+                              <div class="inp flex justify-center align-middle">
+                                <input class="w-[30%]" type="text" name="" id="trin1" placeholder="b">
+                                <span class="mx-2">cm</span>
+                                <input class="w-[30%]" type="text" name="" id="trin2" placeholder="h">
+                                <span class="mx-2">cm</span>
+                              </div>
+                              <p>Area:<span id="tr">cm2</span></p>
+                              <div class=" w-full">
+                                <button id="tcal" class="bg-cyan-500 p-2 rounded-lg text-white w-full">Calculate</button>
+                              </div>
+                            </div>
+                          </div>
+                
+        </div>
+
+        <div class="box flex-1">  
+            <div class="card w-72 bg-base-100 shadow-xl border-1 border-gray-400">
+                <figure class="px-10 pt-10">
+                  <img src="images/pentagon.png" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Pentagon</h2>
+                  <p>Area (A) = 0.5*b*h</p>
+                  <div class="inp flex justify-center align-middle">
+                    <input class="w-[30%]" type="text" name="" id="trin1" placeholder="b">
+                    <span class="mx-2">cm</span>
+                    <input class="w-[30%]" type="text" name="" id="trin2" placeholder="h">
+                    <span class="mx-2">cm</span>
+                  </div>
+                  <p>Area:<span id="tr">cm2</span></p>
+                  <div class=" w-full">
+                    <button id="tcal" class="bg-cyan-500 p-2 rounded-lg text-white w-full">Calculate</button>
+                  </div>
+                </div>
+              </div>
+    
+        </div>
+
+        <div class="box flex-1">  
+            <div class="card w-72 bg-base-100 shadow-xl border-1 border-gray-400">
+                <figure class="px-10 pt-10">
+                  <img src="images/ellipse.png" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Ellipse</h2>
+                  <p>Area (A) = 0.5*b*h</p>
+                  <div class="inp flex justify-center align-middle">
+                    <input class="w-[30%]" type="text" name="" id="trin1" placeholder="b">
+                    <span class="mx-2">cm</span>
+                    <input class="w-[30%]" type="text" name="" id="trin2" placeholder="h">
+                    <span class="mx-2">cm</span>
+                  </div>
+                  <p>Area:<span id="tr">cm2</span></p>
+                  <div class=" w-full">
+                    <button id="tcal" class="bg-cyan-500 p-2 rounded-lg text-white w-full">Calculate</button>
+                  </div>
+                </div>
+              </div>
+    
+        </div>
+
+                        
+        </div>
+
+        <div class="cal w-96 border-2 h-full border-red-600">
+            <h5>Area Calculation</h5>
+        </div>
+
+    </main>
+    
+
+
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
